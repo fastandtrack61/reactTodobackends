@@ -8,7 +8,7 @@ app.use(cors());
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb+srv://jithin:jithin@cluster0.b2mly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect("mongodb+srv://jithin:jithin@cluster0.b2mly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.error(err));
 
